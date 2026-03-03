@@ -145,6 +145,10 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="SourceFiles\TextEditorOpenGL.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderFiles\FragmentShaderSource.frag" />
+    <None Include="ShaderFiles\VertexShaderSource.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
